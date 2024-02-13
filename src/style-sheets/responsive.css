@@ -1,0 +1,112 @@
+.mobshow {
+	display: none;
+}
+
+@media (min-width: 1450px) {
+	.padSection {
+	    min-height: 82vh;
+	}
+}
+@media (min-width: 992px) {
+
+}
+@media (max-width: 767px) {
+	
+	.logo img {
+	    height: 37px;
+	}
+	.padSection {
+	    padding: 20px 0px;
+	}
+	.timer .row>div{
+		width: 25%;
+	}
+	.snTime {
+    	font-size: 17px;
+	}
+	.presaleSlider .timer {
+	    padding: 19px 11px 0;
+	}
+	.presaleSliderbody {
+		margin-bottom: 25px;
+	}
+	.multibuttons button {
+    	width: 100%;
+    	margin: 0px;
+    	margin-bottom: 10px;
+	}
+	.modalWallet .snWallet img {
+	    width: 20px;
+	}
+	.modalWallet .snWallet2 img {
+	    width: 50px;
+	}
+	.sn_in_parks {
+	    padding: 13px 15px;
+	    border-radius: 3px;
+	    border: 2px solid #00bafe;
+	}
+	.navbar-brand img {
+	    height: 34px;
+	}
+	.navbar-dark .navbar-toggler {
+		background: transparent !important;
+		border: 0px;
+		box-shadow: none !important;
+	}
+	.presaleSlider {
+
+	    border-radius: 12px;
+
+	    padding: 24px 15px;
+
+	}
+	.purchaseSec {
+		    flex-direction: column;
+	}
+	.purchaseSec p {
+		margin-bottom: 0px !important;
+	}
+	.navbar-toggler-icon {
+		background: transparent;
+	}
+	
+	.navbar-toggler-icon  i{
+
+		color: #000;
+		margin-top: 10px;
+	}
+	.nav-item {
+		margin: 0px !important;
+	}
+	.nav-item button {
+		width: 100% !important;
+	}
+
+	.purchaseSec p {
+		margin-top: 10px;
+	    font-size: 16px;
+	    line-height: 20px;
+	    width: 100%;
+	}
+	.inside-info-box input.form-control {
+	    width: 56%;
+	}
+	.newsletter {
+		border-radius: 12px;
+    	padding: 25px 25px;
+	}
+	.navbar-nav .navbar-nav {
+		width: 100%;
+		flex-direction: row;
+	}
+	.mobhide {
+		display: none;
+	}
+	.mobshow {
+		display: block;
+	}
+	.navbar {
+		padding: 15px 0px;
+	}
+}
